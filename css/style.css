@@ -1,15 +1,15 @@
 body {
     display: grid;
-    grid-template-columns: 550px auto;
+    grid-template-columns: 500px auto;
     margin: 0;
     font-size: 20px;
 }
 .pp {
     position: absolute;
     margin-left: 260px;
-    margin-top: 80px;
-    width: 400px;
-    height: 400px;
+    margin-top: 70px;
+    width: 350px;
+    height: 350px;
 }
 /* LEFT SIDE */
 .left-side {
@@ -22,7 +22,7 @@ body {
 .left-title-box {
     background-color: black;
     color: white;
-    width: 200px;
+    width: 220px;
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -47,7 +47,7 @@ body {
 .link-list:visited {
     color: black;
 }
-.left-list-dot {
+.left-list-icon {
     height: 50px;
     width: 10px;
     background-color: black;
@@ -100,7 +100,7 @@ body {
     text-align: -webkit-right;
 }
 .name-profile {
-    width: 700px;
+    width: 570px;
     background-color: yellow;
     text-align: left;
     font-size: 60px;
@@ -134,7 +134,7 @@ body {
 }
 .nick-profile {
     text-align: left;
-    width: 700px;
+    width: 570px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -148,19 +148,19 @@ body {
 .desc-first {
     margin-top: 50px;
     text-align: left;
-    width: 700px;
+    width: 580px;
 }
 .desc-first-text {
-    width: 600px;
+    width: 530px;
     text-align: justify;
 }
 .desc-last {
     margin-top: 20px;
     text-align: left;
-    width: 700px;
+    width: 580px;
 }
 .desc-last-text {
-    width: 600px;
+    width: 530px;
     text-align: justify;
 }
 .right-container {
@@ -171,12 +171,12 @@ body {
     color: black;
     width: 400px;
     padding-left: 50px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
     font-size: 30px;
     font-weight: bold;
 }
-.right-title {
+.right-value {
     margin-left: 50px;
 }
 .right-title {
@@ -216,7 +216,7 @@ body {
     text-align: -webkit-right;
 }
 .sosmed-content {
-    margin-top: 25px;
+    background-color: yellow;
     text-align: left;
     font-size: 25px;
     font-weight: bold;
